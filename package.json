@@ -1,0 +1,22 @@
+{
+  "name": "coffeescript-bot",
+  "version": "1.0.0",
+  "description": "why",
+  "main": "dist/bot.js",
+  "scripts": {
+    "start": "coffee -c -o dist src && eslint dist && node ."
+  },
+  "keywords": [
+    "coffee"
+  ],
+  "author": "Irian3x3 <irian3x3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "coffeescript": "^2.5.1",
+    "eslint": "^7.16.0"
+  }
+}
